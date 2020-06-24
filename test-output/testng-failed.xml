@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [RegressionSuite]">
+  <test name="Testing(failed)">
+    <classes>
+      <class name="com.SSP_Web_POM_TestScripts.TC_02">
+        <methods>
+          <include name="TC_002"/>
+        </methods>
+      </class> <!-- com.SSP_Web_POM_TestScripts.TC_02 -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

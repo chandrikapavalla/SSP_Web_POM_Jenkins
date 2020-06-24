@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="199263" started-at="2020-06-24T19:23:31Z" finished-at="2020-06-24T19:26:51Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="199263" started-at="2020-06-24T19:23:31Z" finished-at="2020-06-24T19:26:51Z">
+      <class name="com.SSP_Web_POM_TestScripts.TC_01">
+        <test-method status="PASS" signature="Tc_001()[pri:0, instance:com.SSP_Web_POM_TestScripts.TC_01@548a9f61]" name="Tc_001" duration-ms="181099" started-at="2020-06-24T20:23:31Z" finished-at="2020-06-24T20:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_001 -->
+      </class> <!-- com.SSP_Web_POM_TestScripts.TC_01 -->
+      <class name="com.SSP_Web_POM_TestScripts.TC_02">
+        <test-method status="PASS" signature="TC_002()[pri:0, instance:com.SSP_Web_POM_TestScripts.TC_02@100fc185]" name="TC_002" duration-ms="18127" started-at="2020-06-24T20:26:33Z" finished-at="2020-06-24T20:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+      </class> <!-- com.SSP_Web_POM_TestScripts.TC_02 -->
+    </test> <!-- Testing -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
