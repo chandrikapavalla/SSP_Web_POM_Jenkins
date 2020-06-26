@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
+	//public static String URL="https://money.asda.com/home-insurance/";
 	
 
 	public static WebDriver driver;
@@ -29,8 +30,8 @@ public class BaseClass {
 	
 	public  static void openApp() {
 		
-		
-		driver.navigate().to("https://money.asda.com/home-insurance/");
+	//	to reed data from jenkinsparammeters
+		driver.navigate().to(System.getProperty("URL"));
 	}
 	/**
 	 * @param driver
