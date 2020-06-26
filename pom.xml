@@ -34,21 +34,17 @@
 				<URL>${DURL}</URL>
 				</systemPropertyVariables>
 					<suiteXmlFiles>
-						//<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>						
 					</suiteXmlFiles>
+					 <systemPropertyVariables>
+                       <url>${URL}</url>                  
+                	</systemPropertyVariables>
 				</configuration>
-			</plugin>
-
-
-			
+			</plugin>			
 		</plugins>
 	</build>
 
-	
-	
-
-	<dependencies>
+		<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>

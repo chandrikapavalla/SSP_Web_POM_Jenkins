@@ -28,10 +28,12 @@ public class BaseClass {
 	}
 	
 	
-	public  static void openApp() {
+	public static void openApp() {
 		
 	//	to reed data from jenkinsparammeters
-		driver.navigate().to(System.getProperty("URL"));
+		String URL = System.getProperty("url");
+		System.out.println("URL from Jenkins====================================" + URL);
+		driver.navigate().to(URL);
 	}
 	/**
 	 * @param driver
